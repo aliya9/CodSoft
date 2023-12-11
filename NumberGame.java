@@ -22,8 +22,7 @@ public class NumberGame
             if(genNum == num)
             {
                 System.out.println("Correct Number! Total attempts: " + temp);
- 
-
+                break;
             }
             else if(num < genNum)
             {
